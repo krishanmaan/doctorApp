@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Appointment</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Doctor Appointment Booking</h1>
+  </header>
+  <section class="create-appointment">
+    <h2>Create an Appointment</h2>
+    <form id="createAppointmentForm">
+      <label for="doctorName">Doctor's Name:</label>
+      <input type="text" id="doctorName" name="doctorName" placeholder="Enter doctor's name" required>
+
+      <label for="patientName">Patient's Name:</label>
+      <input type="text" id="patientName" name="patientName" placeholder="Enter patient's name" required>
+
+      <label for="appointmentDate">Date:</label>
+      <input type="date" id="appointmentDate" name="date" required>
+
+      <label for="appointmentTime">Time:</label>
+      <input type="time" id="appointmentTime" name="time" required>
+
+      <button type="submit">Create Appointment</button>
+    </form>
+  </section>
+
+  <section class="search-doctor">
+    <h2>Find a Doctor</h2>
+    <form id="searchForm">
+      <input type="text" placeholder="Search by specialization, name, or location" name="query">
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section class="doctor-list">
+    <h2>Available Doctors</h2>
+    <div id="doctors">
+      <!-- Doctor cards will load dynamically here -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Doctor Appointment | All Rights Reserved</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

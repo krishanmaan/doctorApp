@@ -1,0 +1,93 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f3;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #4a4a4a;
+}
+
+.search-doctor, .doctor-list, .create-appointment {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
+}
+
+.search-doctor h2, .doctor-list h2, .create-appointment h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.doctor-card {
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #bebebe, -2px -2px 5px #ffffff;
+  margin-bottom: 1rem;
+}
+
+form input, form select, form button {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff;
+  width: 100%;
+  margin-top: 10px;
+}
+
+form button {
+  background-color: #6c63ff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #5a50e3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  border-radius: 10px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #4a4a4a;
+}
+
+.create-appointment form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-appointment label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.create-appointment input {
+  margin-bottom: 1rem;
+}
